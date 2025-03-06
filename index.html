@@ -1,9 +1,21 @@
 <html>
+    <head>
+        <link rel="stylesheet" href="styles.css">
+    </head>
     <body>
-        <form action="https://tvn-dates-parser-backend-c3b6fffxd9bve7gs.germanywestcentral-01.azurewebsites.net/api" method="get">
-            <label>URL: </label>
-            <input type="text" name="urlstring" id="url"/>
-            <button type="submit">Get iCal</button>
-        </form>
+        <h1>TVN Link einer Mannschaft einfügen und iCal Datei mit allen Spielterminen erstellen lassen.</h1>
+        <div id="form-div">
+            <form action="https://tvn-dates-parser-backend-c3b6fffxd9bve7gs.germanywestcentral-01.azurewebsites.net/api" method="get">
+                <label>URL: </label>
+                <input type="text" name="urlstring" id="url"/>
+                <button type="submit">Get iCal</button>
+            </form>
+        </div>
+        
+        <p>
+            Beispiel-URL: <a href="https://tvn.liga.nu/cgi-bin/WebObjects/nuLigaTENDE.woa/wa/teamPortrait?team=3362789&championship=D%C3%BCsseldorf+S+25">
+                https://tvn.liga.nu/cgi-bin/WebObjects/nuLigaTENDE.woa/wa/teamPortrait?team=3362789&championship=D%C3%BCsseldorf+S+25
+            </a>
+        </p>
     </body>
 </html>

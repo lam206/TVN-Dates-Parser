@@ -1,0 +1,42 @@
+button {
+    width: 100%;
+    max-width: 200px;
+    padding: 10px;
+    font-size: 2.5rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input {
+    width: 100%;
+    max-width: 500px; /* Set a max-width to prevent it from being too large on big screens */
+    padding: 10px;
+    font-size: 1rem; /* Make text readable */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px; /* Add spacing */
+    height: 50px;
+}
+
+#form-div {
+    display: flex;
+    flex-direction: column; /* Stack items vertically on small screens */
+    justify-content: center;
+    align-items: center;
+    height: auto; /* Remove fixed height */
+    padding: 20px;
+    text-align: center;
+    font-size: 40px;
+}
+
+body {
+    font-size: 16px;
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+form {
+    width: 100%;
+}
+
